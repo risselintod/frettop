@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#fret-top {
+	height: 60px;
+	width: 60px;
+}
+
+#jumbo-div {
+	background-image: url(../images/gamepad.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	scroll-behavior: none;
+}
+
+.login {
+	margin-left: 40%;
+}
+
+.form {
+	padding: 10px;
+	margin-bottom: 1%;
+}
+
+#radio {
+	color: white;
+}
