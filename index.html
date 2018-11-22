@@ -5,10 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 
-	<title> Fret Top | Capstone 1 </title>
+	<title> Fret Top </title>
+
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Philosopher|Sahitya|Spectral" rel="stylesheet">
 
 	<!-- fontawesome icons -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 	<!-- fav icon -->
 	<link rel="icon" type="images/gif/png" href="assets/images/iconFT.png">
@@ -20,70 +23,84 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 	<!-- external css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
 </head>
-<body>
+<body>      
 
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-info">
-		<a class="navbar-brand" href="#">
-			<img id="fret-top" src="assets/images/iconFT.png">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle=collapse" data-target="#navbar-nav">
+	<nav id="nav-page" class="navbar navbar-expand-lg navbar-dark sticky-top">
+		<div id="navbar-nav" class="collapse navbar-collapse">
+			<div class="dropdown">
+				<button class="btn dropdown-toggle" data-toggle="dropdown">
+					<i class="fas fa-bars"></i>
+				</button>			
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Payment Method</a>
+					<a class="dropdown-item" href="#">Birthday</a>
+					<a class="dropdown-item" href="#">Anniversary</a>
+					<a class="dropdown-item" href="#">Fiesta</a>
+					<a class="dropdown-item" href="#">Christening</a>
+				</div>
+			</div>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-
-		<input type="text" name="text" placeholder="Search...">
-
 		<div id="navbar-nav" class="collapse navbar-collapse">
-			<div class="login text-center">
-				<label class="text-white">Username:</label>
-				<input type="text" name="username">
-				<label class="text-white">Password: </label>
-				<input type="password" name="password">
-				<button class="btn btn-primary">Login</button>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="home.html">
+						<i class="fas fa-home"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">
+						<i class="fas fa-phone-square"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">
+						<i class="fas fa-info-circle"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="signin.html">
+						<i class="fas fa-sign-in-alt"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="register.html">
+						<i class="far fa-registered"></i>
+					</a>
+				</li>
+				</ul>
+				<div id="navbar-nav" class="collapse navbar-collapse">
+					<input id="search-box" class="nav-item ml-auto" type="text" name="text" placeholder="Search">
+					<i class="fas fa-search"></i>
+				</div>
 			</div>
-		</div> <!-- end navbar -->
-	</nav> <!-- end nav -->
+		</nav> <!-- end nav -->	
+
 
 	<section id="jumbotron-section">
-		<div id="jumbo-div" class="jumbotron mb-0">
-			<div id="port-jumbo" class="container">
-				<h1 class="display-4 text-center text-white"> Create New Account </h1>
-
-				<form class="text-center">
-					<div>
-						<input type="radio" name="gender" value="female">Female
-						<input type="radio" name="gender" value="male">Male
-					</div>
-					<div class="form">
-						<input type="text" name="Fname" placeholder="First Name">
-					</div>
-					<div class="form">
-						<input type="text" name="Lname" placeholder="Last Name">
-					</div>
-					<div class="form">
-						<input type="email" name="email" placeholder="Email or Number">
-					</div>
-					<div class="form">
-						<input type="password" name="password" placeholder="New Password">
-					</div>
-					<button class="btn btn-primary">
-						<a href="#portfolio" class="text-white"> SIGN UP </a>
-					</button>
-				</form> <!-- end form -->
-				
-			</div> <!-- end jumbo container -->
+		<div id="jumbo-land" class="jumbotron mb-0">
+			<div id="front-page" class="container mt-0">
+				<div class="col-12 col-md-4 col-lg-8">
+					<h1 id="fret-top" class="text-center text-white mt-4">Fret Top</h1>
+					<hr class="my-2">
+					<p class="lead text-center">
+						The perfect solution for any occasion.
+					</p>
+					<h3 class="text-center text-white mb-3">
+						Fresh. Fast. Tasty
+					</h3>
+				</div>
+			</div> <!-- end container -->
 		</div> <!-- end jumbotron -->
 	</section> <!-- end jumbo section -->
 
 
 
 
-	<footer class="footer bg-secondary">
-		<p class="text-center p-3 mg-0">Fret Top Online Games &copy; 2018</p>
-	</footer>
 
 
 
@@ -109,11 +126,13 @@
 
 
 
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
+
+
 </body>
 </html>

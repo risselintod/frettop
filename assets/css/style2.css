@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Spectral', serif;
+}
+
+
+/*landing page*/
+
+#nav-page {
+	background-color: #91081f;
+}
+
+.btn a {
+	text-decoration: none;
+	color: #fff; /*white*/
+}
+
+#jumbo-land {
+	background-image: url(../images/glass.jpeg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	scroll-behavior: none;
+	height: 100vh;
+	padding-top: 20%;
+	border-radius: 0; /*remove jumbo's rounded corner*/
+}
+
+.jumbotron h1 {
+	color: #f2f2f2;
+}
+
+.jumbotron {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	scroll-behavior: none;
+}
+
+/*#navbar-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: -10px;
+}*/
+
+#navbar-right {
+	left: 100%;
+}
+
+#front-page {
+	position: fixed;
+	height: 30%;
+	width: 40%;
+	border: 5px solid white;
+	margin-bottom: 50%;
+}
+
+#fret-top {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+#search-box {
+	border-style: 1px transparent white ;
+}
+
+/*end landing page*/
+
+/*home*/
+
+#Btop {
+	background-color: #d1451f;
+	float: right;
+}
+
+#jumbo-home {
+	background-image: url(../images/place.jpeg);
+	height: 100vh;
+	padding-top: 20%;
+	background-color: #333;
+	border-radius: 0; /*remove jumbo's rounded corner*/
+}
+
+#nav-home {
+	background-color: #91081f;
+}
+
+/*end home*/
+
+/*contact*/
+#nav-con {
+	background-color: #91081f;
+}
+
+
+/*end contact*/
+
+/*about*/
+
+#nav-about {
+	background-color: #91081f;
+}
+
+/*end about*/
+
+/*footer*/
+#home-footer {
+	background-color: #8c2e30;
+}
+
+
+/*end footer*/
+
+/*register*/
+#jumbo-div {
+	border: 5px solid white;
+}
+
+#nav-reg {
+	background-color: #8c2e30;
+}
+
+/*end register*/
+
