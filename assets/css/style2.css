@@ -18,8 +18,10 @@
 }
 
 #ft-logo {
-	height: 3%;
-	width: 3%;
+	border-radius: 20%;
+	margin-left: 64%;
+	height: 4%;
+	width: 4%;
 }
 
 
@@ -76,11 +78,11 @@
 }
 
 #search-box {
-	border-radius: 15px;
+	border-radius: 10px;
 }
 
 #search-icon {
-	margin-top: 1%;
+	margin-top: 3%;
 }
 
 #media-logo {
