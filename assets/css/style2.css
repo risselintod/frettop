@@ -3,6 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Spectral', serif;
+
+/*	font-family: 'Special Elite', cursive;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Arvo', serif;
+	font-family: 'Aref Ruqaa', serif;*/
 }
 
 
@@ -11,6 +16,12 @@
 #nav-page {
 	background-color: #91081f;
 }
+
+#ft-logo {
+	height: 3%;
+	width: 3%;
+}
+
 
 .btn a {
 	text-decoration: none;
@@ -27,6 +38,7 @@
 	height: 100vh;
 	padding-top: 20%;
 	border-radius: 0; /*remove jumbo's rounded corner*/
+	/*overflow-y: hidden;*/
 }
 
 .jumbotron h1 {
@@ -54,20 +66,35 @@
 }
 
 #front-page {
-	position: fixed;
-	height: 30%;
-	width: 40%;
+	max-width: 60vh;
 	border: 5px solid white;
-	margin-bottom: 50%;
+
 }
 
 #fret-top {
-	letter-spacing: 3px;
 	text-transform: uppercase;
 }
 
 #search-box {
-	border-style: 1px transparent white ;
+	border-radius: 15px;
+}
+
+#search-icon {
+	margin-top: 1%;
+}
+
+#media-logo {
+	margin-left: 80%;
+}
+
+img[alt*="media"] {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	display: block;
+	float: left;
+	margin-top: 0;
+	margin-right: 10px;
 }
 
 /*end landing page*/
@@ -75,7 +102,9 @@
 /*home*/
 
 #Btop {
-	background-color: #d1451f;
+	font-family: 'Special Elite', cursive;
+	padding: 0;
+	background-color: #700700;
 	float: right;
 }
 
@@ -89,6 +118,10 @@
 
 #nav-home {
 	background-color: #91081f;
+}
+
+#home-footer {
+	background-color: #8c2e30;
 }
 
 /*end home*/
@@ -109,13 +142,6 @@
 
 /*end about*/
 
-/*footer*/
-#home-footer {
-	background-color: #8c2e30;
-}
-
-
-/*end footer*/
 
 /*register*/
 #jumbo-div {

@@ -5,16 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 
-	<title> Fret Top </title>
+	<title> Fret Top Collection </title>
 
-	<!-- google font -->
-	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Philosopher|Sahitya|Spectral" rel="stylesheet">
+	<!-- fonts google -->
+	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Arvo|Montserrat|Special+Elite|Spectral" rel="stylesheet">
 
 	<!-- fontawesome icons -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 	<!-- fav icon -->
-	<link rel="icon" type="images/gif/png" href="assets/images/iconFT.png">
+	<link rel="icon" type="images/gif/png" href="assets/images/FT.png">
 
 	<!-- animate css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
@@ -24,21 +24,28 @@
 
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
 </head>
 <body>      
 
-	<nav id="nav-page" class="navbar navbar-expand-lg navbar-dark sticky-top">
+	<nav id="nav-page" class="navbar navbar-expand-lg navbar-dark fixed-top">
 		<div id="navbar-nav" class="collapse navbar-collapse">
 			<div class="dropdown">
 				<button class="btn dropdown-toggle" data-toggle="dropdown">
 					<i class="fas fa-bars"></i>
 				</button>			
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="#">Payment Method</a>
-					<a class="dropdown-item" href="#">Birthday</a>
-					<a class="dropdown-item" href="#">Anniversary</a>
-					<a class="dropdown-item" href="#">Fiesta</a>
-					<a class="dropdown-item" href="#">Christening</a>
+					<a class="dropdown-item" href="movies.html">Movies</a>
+					<a class="dropdown-item" href="music.html">Music</a>
+					<a class="dropdown-item" href="books.html">Books</a>
+					<a class="dropdown-item" href="gallery.html">Gallery</a>
+					<a class="dropdown-item" href="games.html">Games</a>
 				</div>
 			</div>
 		</div>
@@ -74,8 +81,10 @@
 				</li>
 				</ul>
 				<div id="navbar-nav" class="collapse navbar-collapse">
-					<input id="search-box" class="nav-item ml-auto" type="text" name="text" placeholder="Search">
-					<i class="fas fa-search"></i>
+					<div class="input-group">
+						<input id="search-box" class="ml-auto input-group-addon" type="Search" placeholder="  Search">
+						<i id="search-icon" class="fas fa-search"></i>
+					</div>
 				</div>
 			</div>
 		</nav> <!-- end nav -->	
@@ -83,16 +92,8 @@
 
 	<section id="jumbotron-section">
 		<div id="jumbo-land" class="jumbotron mb-0">
-			<div id="front-page" class="container mt-0">
-				<div class="col-12 col-md-4 col-lg-8">
-					<h1 id="fret-top" class="text-center text-white mt-4">Fret Top</h1>
-					<hr class="my-2">
-					<p class="lead text-center">
-						The perfect solution for any occasion.
-					</p>
-					<h3 class="text-center text-white mb-3">
-						Fresh. Fast. Tasty
-					</h3>
+			<div id="front-page" class="container">
+				<h1 id="fret-top" class="text-center text-white mt-3">Fret Top Collections</h1>
 				</div>
 			</div> <!-- end container -->
 		</div> <!-- end jumbotron -->
@@ -101,38 +102,15 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-
+	<!-- <footer class="footer">
+		<small>Fret Top Collection &copy; 2018</small>
+		<div id="media-logo" class="contact">
+			<img src="assets/images/fb.png" alt="media-facebook">
+			<img src="assets/images/insta.jpg" alt="media-instagram">
+			<img src="assets/images/twit.png" alt="media-twitter">
+			<img src="assets/images/youtube.png" alt="media-youtube">
+		</div>
+	</footer> --> <!-- end of footer -->
 
 </body>
 </html>
