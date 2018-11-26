@@ -5,13 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 
-	<title> Contact Us | Fret Top </title>
+	<title> Contact Us - Fret Top Collection </title>
 
-	<!-- google font -->
-	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Philosopher|Sahitya|Spectral" rel="stylesheet">
+	<!-- fonts google -->
+	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Arvo|Montserrat|Special+Elite|Spectral" rel="stylesheet">
 
 	<!-- fontawesome icons -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 	<!-- fav icon -->
 	<link rel="icon" type="images/gif/png" href="assets/images/FT.png">
@@ -24,72 +24,103 @@
 
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
 </head>
-<body>
+<body>     
 
-
-
-
-
-
-
-	<nav id="nav-home" class="navbar navbar-expand-lg navbar-dark sticky-top">
-		<img id="ft-logo" src="assets/images/FT.png">
+	<nav id="nav-page" class="navbar navbar-expand-lg navbar-dark fixed-top">
+		<div id="navbar-nav" class="collapse navbar-collapse">
+			<div class="dropdown">
+				<button class="btn dropdown-toggle bg-white" data-toggle="dropdown">
+					<i class="fas fa-bars"></i>
+				</button>			
+				<div id="menu" class="dropdown-menu">
+					<a id="menu-icon" class="dropdown-item" href="movies.html"><i class="fas fa-video"></i> Movies</a>
+					<a id="menu-icon" class="dropdown-item" href="music.html"><i class="fas fa-music"></i> Music</a>
+					<a id="menu-icon" class="dropdown-item" href="books.html"><i class="fas fa-book-open"></i> Books</a>
+					<a id="menu-icon" class="dropdown-item" href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+				</div>
+			</div>
+		</div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div id="navbar-nav" class="collapse navbar-collapse">
-			<ul id="navbar-center" class="navbar-nav ml-auto">
+			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="home.html">Home</a>
+					<a id="menu-icon" class="nav-link" href="home.html">
+						<i class="fas fa-home"></i>
+					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link active" href="contact.html">Contact</a>
+					<a id="menu-icon" class="nav-link active text-white" href="contact.html">
+						<i class="fas fa-phone-square"></i>
+					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="about.html">About</a>
+					<a id="menu-icon" class="nav-link" href="about.html">
+						<i class="fas fa-info-circle"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a id="menu-icon" class="nav-link" href="signin.html">
+						<i class="fas fa-sign-in-alt"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a id="menu-icon" class="nav-link" href="register.html">
+						<i class="far fa-registered"></i>
+					</a>
 				</li>
 			</ul>
+			<div id="search-nav" class="collapse navbar-collapse">
+				<img id="ft-logo" src="assets/images/FT.png">
+				<div class="input-group">
+					<input id="search-box" class="ml-auto input-group-addon" type="Search" placeholder="  Search">
+					<i id="search-icon" class="fas fa-search"></i>
+					</div>
+			</div>
 		</div>
-		<div id="navbar-nav" class="collapse navbar-collapse">
-			<ul id="navbar-center" class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="signin.html">Sign in</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="register.html">Register</a>
-				</li>
-			</ul>
+	</nav> <!-- end nav -->
+
+	<section id="jumbotron-section">
+		<div id="jumbo-contact" class="jumbotron mb-0">
+			<div id="contact-page" class="container">
+				<img id="contact-img" src="assets/images/CU1.jpg">
+				<h2 id="fret-top" class="text-center text-danger mt-3 animated zoomIn">
+					<a href="#"><i class="fas fa-mobile-alt"></i></a>
+					<a href="#"><i class="far fa-envelope"></i></a>
+					<a href="#"><i class="fas fa-at"></i></a>
+					<a href="#"><i class="fas fa-phone"></i></a>
+				</h2>
+				</div>
+			</div> <!-- end container -->
+		</div> <!-- end jumbotron -->
+	</section> <!-- end jumbo section -->
+
+
+	<footer class="footer fixed-bottom">
+		<div class="footer-icon mr-4 mt-3">
+			<img src="assets/images/fb.png" alt="media-facebook">
+			<img src="assets/images/insta.jpg" alt="media-instagram">
+			<img src="assets/images/twit.png" alt="media-twitter">
+			<img src="assets/images/youtube.png" alt="media-youtube">
 		</div>
-	</nav> <!-- end nav -->	
+		<small class="text-uppercase text-white ml-5"><strong> Fret Top &copy; 2018 </strong></small>
+		<p class="mb-0 text-white ml-3">
+			Awesome free photos, videos, games, music, and books contributed by our talented community.
+		</p>
+
+	</footer>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
 
 </body>
 </html>

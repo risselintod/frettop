@@ -19,7 +19,7 @@
 
 #ft-logo {
 	border-radius: 20%;
-	margin-left: 64%;
+	margin-left: 55%;
 	height: 4%;
 	width: 4%;
 }
@@ -40,7 +40,6 @@
 	height: 100vh;
 	padding-top: 20%;
 	border-radius: 0; /*remove jumbo's rounded corner*/
-	/*overflow-y: hidden;*/
 }
 
 .jumbotron h1 {
@@ -75,14 +74,18 @@
 
 #fret-top {
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 #search-box {
 	border-radius: 10px;
+	width: 90%;
 }
 
 #search-icon {
-	margin-top: 3%;
+	margin-top: 2%;
+	margin-left: 2%;
+	color: white;
 }
 
 #media-logo {
@@ -98,6 +101,19 @@ img[alt*="media"] {
 	margin-top: 0;
 	margin-right: 10px;
 }
+
+#menu-icon {
+	color: #f25f04;
+	letter-spacing: 2px;
+	font-family: 'Arvo', serif;
+}
+
+#menu {
+	background-color: #91081f;
+	border: 1px solid white;
+}
+
+
 
 /*end landing page*/
 
@@ -118,19 +134,26 @@ img[alt*="media"] {
 	border-radius: 0; /*remove jumbo's rounded corner*/
 }
 
-#nav-home {
-	background-color: #91081f;
-}
-
-#home-footer {
-	background-color: #8c2e30;
-}
 
 /*end home*/
 
 /*contact*/
-#nav-con {
-	background-color: #91081f;
+
+#jumbo-contact {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	scroll-behavior: none;
+	height: 80vh;
+	border-radius: 0; /*remove jumbo's rounded corner*/
+}
+
+#contact-img {
+	margin-top: 5%;
+	height: 100%;
+	width: 100%;
 }
 
 
@@ -138,20 +161,42 @@ img[alt*="media"] {
 
 /*about*/
 
-#nav-about {
+#boxx {
+	background-color: white;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	border-left: 20px solid #91081f;
+	border-right: 20px solid #91081f;
+	border-bottom: 1px solid black;
+}
+
+.footer {
 	background-color: #91081f;
+	width: 100%;
+	margin-bottom: 0;
+	font-family: 'Aref Ruqaa', serif;
+	letter-spacing: 2px;
+}
+
+.footer-icon {
+	float: right;
 }
 
 /*end about*/
 
-
 /*register*/
-#jumbo-div {
-	border: 5px solid white;
+
+#register {
+	border: 2px solid black;
+}
+.radio-button {
+	position: absolute;
+	left: 50%;
 }
 
-#nav-reg {
-	background-color: #8c2e30;
+#create {
+	margin-left: 10%;
 }
 
 /*end register*/
