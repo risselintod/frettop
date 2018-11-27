@@ -73,8 +73,7 @@
 }
 
 #fret-top {
-	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 
 #search-box {
@@ -146,14 +145,23 @@ img[alt*="media"] {
 	background-attachment: fixed;
 	background-position: center center;
 	scroll-behavior: none;
-	height: 80vh;
+	height: 30%;
+	padding-bottom: 0;
 	border-radius: 0; /*remove jumbo's rounded corner*/
 }
 
 #contact-img {
-	margin-top: 5%;
+	padding-top: 15px;
+	color: red;
 	height: 100%;
 	width: 100%;
+}
+
+#map {
+	padding-top: 10px;
+	height: 70vh;
+	width: 70%;
+	margin-left: 25%;
 }
 
 
@@ -212,9 +220,6 @@ img[alt*="media"] {
 	font-family: 'Arvo', serif;
 	font-family: 'Aref Ruqaa', serif;*/
 }
-
-
-
 
 
 /*end comics*/
