@@ -35,17 +35,11 @@
 <body>      
 
 	<nav id="nav-page" class="navbar navbar-expand-lg navbar-dark sticky-top">
-		<div id="navbar-nav" class="collapse navbar-collapse">
-			<div class="dropdown">
-				<button class="btn dropdown-toggle bg-white" data-toggle="dropdown">
-					<i class="fas fa-bars"></i>
-				</button>			
-				<div id="menu" class="dropdown-menu">
-					<a id="menu-icon" class="dropdown-item" href="movies.html"><i class="fas fa-video"></i> Movies</a>
-					<a id="menu-icon" class="dropdown-item" href="music.html"><i class="fas fa-music"></i> Music</a>
-					<a id="menu-icon" class="dropdown-item" href="books.html"><i class="fas fa-book-open"></i> Books</a>
-					<a id="menu-icon" class="dropdown-item" href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
-				</div>
+		<div id="search-nav" class="collapse navbar-collapse">
+			<img id="ft-logo" src="assets/images/FT.png">
+			<div class="input-group">
+				<input id="search-box" class="ml-auto input-group-addon" type="search" placeholder="   Search                                                                            🔍">
+				<!-- <button><i id="search-icon" class="fas fa-search"></i></button> -->
 			</div>
 		</div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
@@ -79,18 +73,25 @@
 					</a>
 				</li>
 				</ul>
-				<div id="search-nav" class="collapse navbar-collapse">
-					<img id="ft-logo" src="assets/images/FT.png">
-					<div class="input-group">
-						<input id="search-box" class="ml-auto input-group-addon" type="search" placeholder="   Search">
-						<i id="search-icon" class="fas fa-search"></i>
+			</div>
+			<!-- <div id="navbar-nav" class="collapse navbar-collapse">
+				<div class="dropdown">
+					<button class="btn dropdown-toggle bg-white" data-toggle="dropdown">
+						<i class="fas fa-bars"></i>
+					</button>			
+					<div id="menu" class="dropdown-menu">
+						<a id="menu-icon" class="dropdown-item" href="movies.html"><i class="fas fa-video"></i> Movies</a>
+						<a id="menu-icon" class="dropdown-item" href="music.html"><i class="fas fa-music"></i> Music</a>
+						<a id="menu-icon" class="dropdown-item" href="books.html"><i class="fas fa-book-open"></i> Books</a>
+						<a id="menu-icon" class="dropdown-item" href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</nav> <!-- end nav -->	
 
+
 	<section id="jumbotron-section">
-		<div id="jumbo-land" class="jumbotron mb-0">
+		<div id="jumbo-land" class="jumbotron">
 			<div id="front-page" class="container">
 				<h1 id="fret-top" class="text-center text-white mt-3">Fret Top Cakes</h1>
 				</div>
