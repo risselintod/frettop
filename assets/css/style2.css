@@ -31,7 +31,7 @@
 }
 
 #jumbo-land {
-	background-image: url(../images/glass.jpeg); 
+	background-image: url(../CAKES/2Lheartcake.jpeg); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -79,7 +79,8 @@
 #search-box {
 	border-radius: 5px;
 	width: 70%;
-	margin-right: 25%; 
+	height: 100%;
+	margin-right: 28%; 
 }
 
 #search-icon {
@@ -226,3 +227,56 @@ img[alt*="media"] {
 
 /*end comics*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile Style*/
+@media only screen and (max-width: 400px) {
+	body {
+		width: 100%;
+		background-color: pink; /**/
+	}
+	img {
+	width: 100%;
+	}
+}
+
+/*Table Style*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	body {
+		background-color: skyblue; /**/
+	}
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+	body {
+		background-color: white; /**/
+	}
