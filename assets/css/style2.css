@@ -12,15 +12,20 @@
 
 
 /*landing page*/
-
+#made {
+	font-family: 'Felipa', cursive;
+	height: 10px;
+	letter-spacing: 5px;
+	margin-left: 10px;
+}
 #nav-page {
-	background-color: #91081f;
+	background-color: #f2a9c4;
 }
 
 #ft-logo {
-	border-radius: 20%;
-	margin-left: 15%;
-	height: 4%;
+	border-radius: 30%;
+	/*margin-left: 15%;*/
+	height: 5%;
 	width: 4%;
 }
 
@@ -78,9 +83,9 @@
 
 #search-box {
 	border-radius: 5px;
-	width: 70%;
+	width: 50%;
 	height: 100%;
-	margin-right: 28%; 
+	margin-right: 48%; 
 }
 
 #search-icon {
@@ -105,7 +110,8 @@ img[alt*="media"] {
 }
 
 #menu-icon {
-	color: #f25f04;
+	color: #771f26;
+	margin-left: 10px;
 	letter-spacing: 2px;
 	font-family: 'Arvo', serif;
 }
