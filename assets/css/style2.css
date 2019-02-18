@@ -136,7 +136,7 @@ img[alt*="media"] {
 }
 
 #jumbo-home {
-	background-image: url(../images/place.jpeg);
+	background-image: url(../CAKES/round-cake-topped-with-mango-slice-and-cherry.jpeg);
 	height: 100vh;
 	padding-top: 20%;
 	background-color: #333;
@@ -190,8 +190,9 @@ img[alt*="media"] {
 }
 
 .footer {
-	background-color: #91081f;
-	width: 100%;
+	background-color: #f2a9c4;
+	/*width: 100%;*/
+	margin-top: 10px;
 	margin-bottom: 0;
 	font-family: 'Aref Ruqaa', serif;
 	letter-spacing: 2px;
@@ -201,6 +202,10 @@ img[alt*="media"] {
 	float: right;
 }
 
+/*#footer-text {
+	margin-top: 10px;
+}
+*/
 /*end about*/
 
 /*register*/
