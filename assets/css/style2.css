@@ -186,8 +186,8 @@ img[alt*="media"] {
 	color: black;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 1px;
-	border-left: 20px solid #91081f;
-	border-right: 20px solid #91081f;
+	border-left: 20px solid black;
+	border-right: 20px solid black;
 	border-bottom: 1px solid black;
 }
 
